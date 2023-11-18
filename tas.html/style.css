@@ -1,0 +1,121 @@
+
+
+
+body {
+
+
+  background-repeat: no-repeat;
+}
+ .player-info {
+
+border: 4px ridge green;
+padding: 10px;
+height: 150px;
+overflow: scroll;
+margin-top: 20px;
+
+
+ }
+ #ronaldo {
+   margin-top: 60px;
+ }
+
+ #messi {
+   margin-top: 60px;
+ }
+
+a:link {
+  color : red;
+}
+
+a:visited {
+  color: blue;
+
+}
+
+
+a:hover {
+  color:black;
+
+}
+
+h1,h3 {
+  font-family: Arial, sans-sarif;
+  font-size: 20px;
+}
+
+.player-info {
+  font-family: Arial,sans-serif;
+}
+
+
+
+
+
+.player-info >p {
+  color: green ;
+}
+#header + div {
+margin-top: 30px;
+
+}
+#header ~ div {
+  margin-top: 50px;
+}
+
+
+
+
+
+img {
+width: auto;
+height: 200px;
+
+
+
+}
+
+
+.player-info {
+
+opacity: 0.6;
+background: pink;
+border-radius: 16px;
+
+}
+
+
+.player-info :hover {
+  opacity: 0.6;
+  background: rgba(50, 168, 82, 0.5);
+  transition: all 2s linear 1s;
+
+}
+#messi h3, #ronaldo h3{
+
+  text-shadow:  1px 2px 3px red;
+}
+
+#messi p, #ronaldo p {
+
+  text-shadow: 1px 2px 3px red;
+  box-shadow: 2px 3px 4px black;
+}
+
+
+
+
+
+#messi img:hover , #ronaldo img:hover {
+transform: scale(1.5);
+
+
+
+
+
+
+
+
+
+
+}
